@@ -6,7 +6,7 @@
 /*   By: arngomes <arngomes@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/12 13:22:54 by arngomes          #+#    #+#             */
-/*   Updated: 2026/11/12 13:46:05 by arngomes         ###   ########.fr       */
+/*   Updated: 2026/11/12 14:41:14 by arngomes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	ft_nbrlen(int n)
 {
 	long	nb;
-	int	len;
+	int		len;
 
 	nb = n;
 	len = 0;
