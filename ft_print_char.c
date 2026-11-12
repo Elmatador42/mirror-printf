@@ -6,13 +6,13 @@
 /*   By: arngomes <arngomes@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 16:52:29 by arngomes          #+#    #+#             */
-/*   Updated: 2026/11/12 13:18:58 by arngomes         ###   ########.fr       */
+/*   Updated: 2026/11/12 13:58:53 by arngomes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_print_char(char c)
+int	ft_print_char(int c)
 {
 	ft_putchar_fd(c, 1);
 	return (1);
