@@ -6,7 +6,7 @@
 /*   By: arngomes <arngomes@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 16:52:29 by arngomes          #+#    #+#             */
-/*   Updated: 2026/11/05 16:54:20 by arngomes         ###   ########.fr       */
+/*   Updated: 2026/11/12 13:18:58 by arngomes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,12 @@
 
 int	ft_print_char(char c)
 {
-	ft_putchar
+	ft_putchar_fd(c, 1);
 	return (1);
+}
+
+int	ft_print_str(char *str)
+{
+	ft_putstr_fd(str, 1);
+	return (ft_strlen(str));
 }

@@ -6,7 +6,7 @@
 /*   By: arngomes <arngomes@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 13:26:51 by arngomes          #+#    #+#             */
-/*   Updated: 2026/11/05 15:56:00 by arngomes         ###   ########.fr       */
+/*   Updated: 2026/11/12 13:22:32 by arngomes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,13 +20,13 @@ int ft_format(va_list args, const char let)
 	if (let == 'c')
 		len = ft_print_char(va_arg(args, char));
 	else if (let == 's')
-		len = 
+		len = ft_print_str(va_arg(args, char *));
 	else if (let == 'p')
 		len = 
 	else if (let == 'd')
-		len = 
+		len = ft_print_nbr(va_arg(args, ))
 	else if (let == 'i')
-		len = 
+		len = ft_print_int(va_arg(args, int))
 	else if (let == 'u')
 		len = 
 	else if (let == 'x')
