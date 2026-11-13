@@ -152,10 +152,6 @@ error handling) without any benefit for the mandatory part.
 
 - `man 3 printf` — reference behaviour of the original function
 - `man 3 stdarg` — `va_start`, `va_arg`, `va_copy`, `va_end`
-- [cppreference — printf](https://en.cppreference.com/w/c/io/fprintf)
-- [cppreference — Variadic functions](https://en.cppreference.com/w/c/variadic)
-- [GNU C Library — Variadic Functions](https://www.gnu.org/software/libc/manual/html_node/Variadic-Functions.html)
-- 42 subject `ft_printf` and the 42 Norm
 
 ### Use of AI
 
